@@ -17,6 +17,9 @@ We will attempt to calculate both ATE and CATE for each task.
 - In order to reproduce the result you can simply run the files. as an output, you will get '.npy' files that contain the CIs for each treatment pair in the form of a python dictionary.
 
 
+### report.pdf
+- A pdf file that contains the full report of our project
+
 [Shoval Zandberg](https://github.com/shoval-z)
 
 [Noa Shmulevich](https://github.com/noashmul)
