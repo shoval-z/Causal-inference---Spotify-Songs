@@ -15,6 +15,7 @@ We will attempt to calculate both ATE and CATE for each task.
 ### causal_key.py / causal_dance.py
 - In both files, you can find the python code we use to calculate the ATE/CATE for the first research question (with treatment=key) or the second research question (with treatment=dancebility) accordingly. We used bootstrap to create a Confidence interval for each treatment pair. 
 - In order to reproduce the result you can simply run the files. as an output, you will get '.npy' files that contain the CIs for each treatment pair in the form of a python dictionary. Make sure that both song_data.csv and song_info.csv will be in the same location as the python file you are running.
+- If you want to calculate the ATE- set the parameter  `CATE = False` in the main function. If you want the find the CATE value set `CATE = True`
 
 
 ### report.pdf
