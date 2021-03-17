@@ -18,8 +18,7 @@ We will attempt to calculate both ATE and CATE for each task.
 - If you want to calculate the ATE- set the parameter  `CATE = False` in the main function. If you want the find the CATE value set `CATE = True`
 
 
-### report.pdf
-- A pdf file that contains the full report of our project
+__For more information about the project see report.pdf file__
 
 [Shoval Zandberg](https://github.com/shoval-z)
 
