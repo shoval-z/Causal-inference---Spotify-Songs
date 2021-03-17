@@ -4,7 +4,7 @@ Music has been an integral part of our culture throughout human history. The suc
 
 We will attempt to calculate both ATE and CATE for each task.
 
-### pre-requirements.txt
+### pre-requirements
 -	Python 3.7 or higher
 -	Packages from requirements.txt in this repo (the versions in the file are the versions we used. this also might work with other versions).
 
