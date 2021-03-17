@@ -4,17 +4,17 @@ Music has been an integral part of our culture throughout human history. The suc
 
 We will attempt to calculate both ATE and CATE for each task.
 
-### pre-requirements
+### pre-requirements.txt
 -	Python 3.7 or higher
 -	Packages from requirements.txt in this repo (the versions in the file are the versions we used. this also might work with other versions).
 
-### song_data and song_info
+### song_data.csv and song_info.csv
 - Both files are from the Kaggle dataset and can be found  [here](https://www.kaggle.com/edalrami/19000-spotify-songs)
 - Contain different features about each song such as artist name, playlist, duration, acoustics, danceability, energy, loudness, "speechiness" (presence of spoken word in track), audio valence, tempo, and liveness
 
-### causal_key / causal_dance
+### causal_key.py / causal_dance.py
 - In both files, you can find the python code we use to calculate the ATE/CATE for the first research question (with treatment=key) or the second research question (with treatment=dancebility) accordingly. We used bootstrap to create a Confidence interval for each treatment pair. 
-- In order to reproduce the result you can simply run the files. as an output, you will get '.npy' files that contain the CIs for each treatment pair in the form of a python dictionary.
+- In order to reproduce the result you can simply run the files. as an output, you will get '.npy' files that contain the CIs for each treatment pair in the form of a python dictionary. Make sure that both song_data.csv and song_info.csv will be in the same location as the python file you are running.
 
 
 ### report.pdf
